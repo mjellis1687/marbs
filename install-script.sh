@@ -14,6 +14,7 @@
 usage() {
 	printf "Required arguments:\\n  -u: Set user\\nOptional arguments for custom use:\\n  -r: Dotfiles repository (local file or url)\\n  -p: Dependencies and programs csv (local file or url)\\n  -a: AUR helper (must have pacman-like syntax)\\n  -h: Show this message\\n"
 }
+
 error() {
 	printf "%s\n" "$1" >&2
 	exit 1;
@@ -57,6 +58,7 @@ checkpkginstall() {
 manualinstall() {
 	# Installs $1 manually. Used only for AUR helper here.
 	# Should be run after repodir is created and var is set.
+	curdir = $(pwd)
 	pacman -Qq "$1" > /dev/null 2>&1 && return 0
 	printf "Installing $1 from AUR manually.\\n"
 	sudo -u "$name" mkdir -p "$repodir/$1"
@@ -68,6 +70,7 @@ manualinstall() {
 		}
 	cd "$repodir/$1" || exit 1
 	sudo -u "$name" makepkg --noconfirm -si >/dev/null 2>&1 || return 1
+	cd "$curdir"
 }
 
 maininstall() {
