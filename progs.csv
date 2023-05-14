@@ -1,64 +1,95 @@
-#TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
-,xorg-server,"is the graphical server."
-,xorg-xwininfo,"allows querying information about windows."
-,xorg-xinit,"starts the graphical server."
-,ttf-linux-libertine,"provides the sans and serif fonts for LARBS."
-A,lf-git,"is an extensive terminal file manager that everyone likes."
-,bc,"is used for a dropdown calculator."
-,xcompmgr,"is for transparency and removing screen-tearing."
-,xorg-xprop,"is a tool for detecting window properties."
-,arandr,"allows the user to customize monitor arrangements."
-,dosfstools,"allows your computer to access dos-like filesystems."
-,libnotify,"allows desktop notifications."
-,dunst,"is a suckless notification system."
-,exfat-utils,"allows management of FAT drives."
-,sxiv,"is a minimalist image viewer."
-,xwallpaper,"sets the wallpaper."
-,ffmpeg,"can record and splice video and audio on the command line."
-,gnome-keyring,"serves as the system keyring."
-A,gtk-theme-arc-gruvbox-git,"gives the dark GTK theme used in LARBS."
-,neovim,"a tidier vim with some useful features"
-,mpd,"is a lightweight music daemon."
-,mpc,"is a terminal interface for mpd."
-,mpv,"is the patrician's choice video player."
-,man-db,"lets you read man pages of programs."
-,ncmpcpp,"a ncurses interface for music with multiple formats and a powerful tag editor."
-,newsboat,"is a terminal RSS client."
-A,brave-bin,"is an elegant browser with built-in adblocking, tor and other features."
-,noto-fonts-emoji,"is an emoji font."
-,ntfs-3g,"allows accessing NTFS partitions."
-,pulseaudio-alsa,"is the audio system."
-,pulsemixer,"is an audio controller."
-,pamixer,"is a command-line audio interface."
-A,sc-im,"is an Excel-like terminal spreadsheet manager."
-,maim,"can take quick screenshots at your request."
-A,abook,"is an offline addressbook usable by neomutt."
-,unclutter,"hides an inactive mouse."
-,unrar,"extracts rar's."
-,unzip,"unzips zips."
-,lynx,"is a terminal browser."
-,xcape,"gives the special escape/super mappings of LARBS."
-,xclip,"allows for copying and pasting from the command line."
-,xdotool,"provides window action utilities on the command line."
-,xorg-xdpyinfo,"aids with resolution determination and screen recording."
-,youtube-dl,"can download any YouTube video (or playlist or channel) when given the link."
-,zathura,"is a pdf viewer with vim-like bindings."
-,zathura-pdf-mupdf,"allows mupdf pdf compatibility in zathura."
-,poppler,"manipulates .pdfs and gives .pdf previews and other .pdf functions."
-,mediainfo,"shows audio and video information."
-,atool,"manages and gives information about archives."
-,fzf,"is a fuzzy finder tool."
-,highlight,"can highlight code output."
-,xorg-xbacklight,"enables changing screen brightness levels."
-A,zsh-fast-syntax-highlighting,"provides syntax highlighting in the shell."
-A,task-spooler,"queues commands or files for download."
-A,simple-mtpfs,"enables the mounting of cell phones."
-A,htop-vim-git,"is a graphical and colorful system monitor."
-G,https://github.com/LukeSmithxyz/dwmblocks.git,"serves as the modular status bar."
-G,https://github.com/lukesmithxyz/dmenu.git,"runs commands and provides a UI for selection."
-G,https://github.com/lukesmithxyz/st.git,"is my custom build of suckless's terminal emulator."
-G,https://github.com/lukesmithxyz/dwm.git,"is the window manager."
-A,mutt-wizard-git,"is a light-weight terminal-based email system."
-,slock,"allows you to lock your computer, and quickly unlock with your password."
-,socat,"is a utility which establishes two byte streams and transfers data between them."
-,moreutils,"is a collection of useful unix tools."
+#TAG,NAME IN REPO (or git url),DESCRIPTION
+,arandr,Provide a simple visual front end for XRandR 1.2.
+,atool,A script for managing file archives of various types
+,bat,Cat clone with syntax highlighting and git integration
+,bc,An arbitrary precision calculator language
+,cups,The CUPS Printing System - daemon package
+,dunst,Customizable and lightweight notification-daemon
+,evince-no-gnome,"Document viewer, no gnome dependencies"
+,exfat-utils,Utilities for exFAT file system
+,fd,"Simple, fast and user-friendly alternative to find"
+,ffmpeg,"Complete solution to record, convert and stream audio and video"
+,ffmpegthumbnailer,Lightweight video thumbnailer that can be used by file managers
+,fzf,Command-line fuzzy finder
+,gcc-fortran,Fortran front-end for GCC
+,glow,Command-line markdown renderer
+,gnome-keyring,Stores passwords and encryption keys
+,hplip,"Drivers for HP DeskJet, OfficeJet, Photosmart, Business Inkjet and some LaserJet"
+,htop,Interactive process viewer
+,lf,A terminal file manager inspired by ranger 
+,libnotify,Library for sending desktop notifications
+,libreoffice-fresh,LibreOffice branch which contains new features and program enhancements
+,maim,Utility to take a screenshot using imlib2 
+,man-db,A utility for reading man pages
+,mediainfo,Supplies technical and tag information about a video or audio file (CLI interface)
+,moreutils,A growing collection of the unix tools that nobody thought to write thirty years ago
+,mpc,Minimalist command line interface to MPD
+,mpd,"Flexible, powerful, server-side application for playing music"
+,mpv,"a free, open source, and cross-platform media player"
+,ncmpcpp,Almost exact clone of ncmpc with some new features
+,neovim,"Fork of Vim aiming to improve user experience, plugins, and GUIs"
+,nextcloud-client,Nextcloud desktop client
+,noto-fonts,Google Noto TTF fonts
+,noto-fonts-emoji,Google Noto emoji fonts 
+,ntfs-3g,NTFS filesystem driver and utilities
+,okular,Document Viewer
+,pass,"Stores, retrieves, generates, and synchronizes passwords securely"
+,pipewire-pulse,Low-latency audio/video router and processor - PulseAudio replacement
+,polkit,Application development toolkit for controlling system-wide privileges
+,poppler,PDF rendering library based on xpdf 3.0
+,powerline,"Statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome, i3 and Qtile"
+,powerline-fonts,patched fonts for powerline
+,pulsemixer,CLI and curses mixer for pulseaudio
+,python-qdarkstyle,Dark style sheet for QtWidgets application
+,rclone,"Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage"
+,remmina,remote desktop client written in GTK+
+,slock,A simple screen locker for X
+,sxiv,Simple X Image Viewer
+,tmux,Terminal multiplexer
+,ttf-dejavu,Font family based on the Bitstream Vera Fonts with a wider range of characters
+,ttf-font-awesome,Iconic font designed for Bootstrap
+,ttf-inconsolata,Monospace font for pretty code listings and for the terminal
+,ttf-linux-libertine,Serif (Libertine) and Sans Serif (Biolinum) OpenType fonts with large Unicode coverage
+,ueberzug,Command line util which allows to display images in combination with X11
+,unclutter,A small program for hiding the mouse cursor
+,unzip,For extracting and viewing files in .zip archives
+,urxvt-perls,URL and Mouseless text selection for rxvt-unicode
+,wireplumber,Session / policy manager implementation for PipeWire
+,xcape,Configure modifier keys to act as other keys when pressed and released on their own
+,xclip,Command line interface to the X11 clipboard
+,xcompmgr,Composite Window-effects manager for X.org
+,xdotool,Command-line X11 automation tool
+,xorg-server,Xorg X server.
+,xorg-xbacklight,RandR-based backlight control application
+,xorg-xdpyinfo,Display information utility for X
+,xorg-xinit,X.Org initialisation program
+,xorg-xprop,Property displayer for X
+,xorg-xrandr,Primitive command line interface to RandR extension
+,xorg-xwininfo,Command-line utility to print information about windows on an X server
+,xwallpaper,Wallpaper setting utility for X
+,yt-dlp,A youtube-dl fork with additional features and fixes
+,zathura,Minimalistic document viewer
+,zathura-pdf-mupdf,"PDF support for Zathura (MuPDF backend) (Supports PDF, ePub, and OpenXPS)"
+A,brave-bin,Web browser that blocks ads and trackers by default (binary release)
+A,dropbox,"A free service that lets you bring your photos, docs, and videos anywhere and share them easily."
+A,gpp,"A general-purpose preprocessor with customizable syntax, suitable for a wide range of preprocessing tasks"
+A,gtk-theme-arc-gruvbox-git,"A flat, grey gruvboxed theme with transparent elements for GTK 3, GTK 2 and gnome-shell. Latest commit from the master branch on Github."
+A,htop-vim,Interactive process viewer with a Vim keybindings patch
+A,libxft-git,FreeType-based font drawing library for X
+A,nautilus-dropbox,Dropbox for Linux - Nautilus extension
+A,pianobar,Console-based frontend for Pandora
+A,python38,Major release 3.8 of the Python high-level programming language
+A,python39,Major release 3.9 of the Python high-level programming language
+A,sc-im,A spreadsheet program based on SC
+A,slack-desktop,Slack Desktop (Beta) for Linux
+A,teams,Microsoft Teams for Linux is your chat-centered workspace in Office 365
+A,ttf-joypixels,Emoji as a Service (formerly EmojiOne)
+A,ttf-symbola,Font for symbol blocks of the Unicode Standard (TTF)
+A,urxvt-fullscreen,script to switch fullscreen and above-other-windows on urxvt
+A,urxvt-resize-font,An urxvt plugin to adjust the font size on the fly
+A,xdg-ninja-git,A shell script which checks your $HOME for unwanted files and directories.
+A,zoom,Video Conferencing and Web Conferencing Service
+G,https://github.com/lukesmithxyz/dmenu.git,Generic menu for X
+G,https://github.com/lukesmithxyz/dwm.git,A dynamic window manager for X
+G,https://github.com/LukeSmithxyz/dwmblocks.git,Modular status bar for DWM
+G,https://github.com/lukesmithxyz/st.git,A simple virtual terminal emulator for X.

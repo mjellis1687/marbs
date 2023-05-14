@@ -2,6 +2,13 @@
 
 This is based on [Luke Smith's LARBS](larbs.xyz).
 
+## TODOs
+
+- Automatically enable ssh-server
+- Install powerline? / edit config
+- ufw (default rules)
+-
+
 ## Installation:
 
 On an Arch-based distribution as root, run the following:
