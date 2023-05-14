@@ -154,7 +154,6 @@ finalize(){
 
 ### This is how everything happens in an intuitive format and order.
 
-name=`who am i | awk '{print $1}'`
 printf "Running as user $name\\n"
 
 # Check if user is root on Arch distro. Install dialog.
