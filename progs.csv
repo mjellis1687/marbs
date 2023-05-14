@@ -32,7 +32,7 @@
 ,noto-fonts,Google Noto TTF fonts
 ,noto-fonts-emoji,Google Noto emoji fonts 
 ,ntfs-3g,NTFS filesystem driver and utilities
-,openssl,"SSH protocol implementation for remote login, command execution and file transfer"
+,openssh,"SSH protocol implementation for remote login, command execution and file transfer"
 ,okular,Document Viewer
 ,pass,"Stores, retrieves, generates, and synchronizes passwords securely"
 ,pipewire-pulse,Low-latency audio/video router and processor - PulseAudio replacement
@@ -41,7 +41,7 @@
 ,powerline,"Statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome, i3 and Qtile"
 ,powerline-fonts,patched fonts for powerline
 ,pulsemixer,CLI and curses mixer for pulseaudio
-,Python-pywal,Generate and change colorschemes on the fly
+,python-pywal,Generate and change colorschemes on the fly
 ,python-qdarkstyle,Dark style sheet for QtWidgets application
 ,rclone,"Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage"
 ,remmina,remote desktop client written in GTK+
