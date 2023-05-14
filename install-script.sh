@@ -67,8 +67,7 @@ manualinstall() {
 			sudo -u "$name" git pull --force origin master
 		}
 	cd "$repodir/$1" || exit 1
-	sudo -u "$name" -D "$repodir/$1" \
-		makepkg --noconfirm -si >/dev/null 2>&1 || return 1
+	sudo -u "$name" makepkg --noconfirm -si >/dev/null 2>&1 || return 1
 }
 
 maininstall() {
@@ -166,7 +165,7 @@ printf "Running as user $name\\n"
 # Refresh Arch keyrings.
 refreshkeys || error "Error automatically refreshing Arch keyring. Consider doing so manually."
 
-for x in curl ca-certificates base-devel git ntp zsh; do
+for x in curl ca-certificates base-devel git ntp zsh go; do
 	checkpkginstall "$x" || (printf "Installing $x which is required to install and configure other programs.\\n" && installpkg "$x") || error "Failed to install $x"
 done
 
@@ -185,6 +184,7 @@ sed -Ei "s/^#(ParallelDownloads).*/\1 = 5/;/^#Color$/s/#//" /etc/pacman.conf
 # Use all cores for compilation.
 sed -i "s/-j2/-j$(nproc)/;s/^#MAKEFLAGS/MAKEFLAGS/" /etc/makepkg.conf
 
+# note: go is included for yay
 manualinstall "$aurhelper" || error "Failed to install AUR helper."
 
 # The command that does all the installing. Reads the progs.csv file and
