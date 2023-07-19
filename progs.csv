@@ -10,16 +10,17 @@
 ,fd,"Simple, fast and user-friendly alternative to find"
 ,ffmpeg,"Complete solution to record, convert and stream audio and video"
 ,ffmpegthumbnailer,Lightweight video thumbnailer that can be used by file managers
+,freerdp,Free implementation of the Remote Desktop Protocol (RDP)
 ,fzf,Command-line fuzzy finder
 ,gcc-fortran,Fortran front-end for GCC
 ,glow,Command-line markdown renderer
 ,gnome-keyring,Stores passwords and encryption keys
 ,hplip,"Drivers for HP DeskJet, OfficeJet, Photosmart, Business Inkjet and some LaserJet"
 ,htop,Interactive process viewer
-,lf,A terminal file manager inspired by ranger 
+,lf,A terminal file manager inspired by ranger
 ,libnotify,Library for sending desktop notifications
 ,libreoffice-fresh,LibreOffice branch which contains new features and program enhancements
-,maim,Utility to take a screenshot using imlib2 
+,maim,Utility to take a screenshot using imlib2
 ,man-db,A utility for reading man pages
 ,mediainfo,Supplies technical and tag information about a video or audio file (CLI interface)
 ,moreutils,A growing collection of the unix tools that nobody thought to write thirty years ago
@@ -30,7 +31,7 @@
 ,neovim,"Fork of Vim aiming to improve user experience, plugins, and GUIs"
 ,nextcloud-client,Nextcloud desktop client
 ,noto-fonts,Google Noto TTF fonts
-,noto-fonts-emoji,Google Noto emoji fonts 
+,noto-fonts-emoji,Google Noto emoji fonts
 ,ntfs-3g,NTFS filesystem driver and utilities
 ,openssh,"SSH protocol implementation for remote login, command execution and file transfer"
 ,okular,Document Viewer
@@ -47,6 +48,9 @@
 ,remmina,remote desktop client written in GTK+
 ,slock,A simple screen locker for X
 ,sxiv,Simple X Image Viewer
+,texlive,Group of TeX Live packages
+,texlive-doc,TeX Live - documentation
+,texlive-langenglish,TeX Live - US and UK English
 ,tmux,Terminal multiplexer
 ,ttf-dejavu,Font family based on the Bitstream Vera Fonts with a wider range of characters
 ,ttf-font-awesome,Iconic font designed for Bootstrap
@@ -56,6 +60,7 @@
 ,unclutter,A small program for hiding the mouse cursor
 ,unzip,For extracting and viewing files in .zip archives
 ,urxvt-perls,URL and Mouseless text selection for rxvt-unicode
+,vpnc,VPN client for cisco3000 VPN Concentrators
 ,wireplumber,Session / policy manager implementation for PipeWire
 ,xcape,Configure modifier keys to act as other keys when pressed and released on their own
 ,xclip,Command line interface to the X11 clipboard
@@ -74,6 +79,7 @@
 ,zathura-pdf-mupdf,"PDF support for Zathura (MuPDF backend) (Supports PDF, ePub, and OpenXPS)"
 A,brave-bin,Web browser that blocks ads and trackers by default (binary release)
 A,dropbox,"A free service that lets you bring your photos, docs, and videos anywhere and share them easily."
+A,forticlient-vpn,Build through the official package of FortiClient VPN only
 A,gpp,"A general-purpose preprocessor with customizable syntax, suitable for a wide range of preprocessing tasks"
 A,gtk-theme-arc-gruvbox-git,"A flat, grey gruvboxed theme with transparent elements for GTK 3, GTK 2 and gnome-shell. Latest commit from the master branch on Github."
 A,htop-vim,Interactive process viewer with a Vim keybindings patch
