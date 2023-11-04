@@ -1,4 +1,4 @@
-# Matt's Auto-Rice Bootstrapping Scripts (MARBS)
+# Matt's Arch Programs and Install Script
 
 This is based on [Luke Smith's LARBS](larbs.xyz).
 
