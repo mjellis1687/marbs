@@ -114,7 +114,6 @@
 ,zathura-pdf-mupdf,"PDF support for Zathura (MuPDF backend) (Supports PDF, ePub, and OpenXPS)",,
 A,brave-bin,Web browser that blocks ads and trackers by default (binary release),,
 A,dropbox,"A free service that lets you bring your photos, docs, and videos anywhere and share them easily.",,
-A,forticlient-vpn,Build through the official package of FortiClient VPN only,,
 A,gpp,"A general-purpose preprocessor with customizable syntax, suitable for a wide range of preprocessing tasks",,
 A,gtk-theme-arc-gruvbox-git,"A flat, grey gruvboxed theme with transparent elements for GTK 3, GTK 2 and gnome-shell. Latest commit from the master branch on Github.",,
 A,htop-vim,Interactive process viewer with a Vim keybindings patch,,
