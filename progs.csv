@@ -5,6 +5,7 @@
 ,bash-completion,Programmable completion for the bash shell,,
 ,bat,Cat clone with syntax highlighting and git integration,,
 ,bc,An arbitrary precision calculator language,,
+,biber,A Unicode-capable BibTeX replacement for biblatex users,,
 ,bluez,Daemons for the bluetooth protocol stack,,
 ,bluez-utils,Development and debugging utilities for the bluetooth protocol stack,,
 ,bmon,Portable bandwidth monitor and rate estimator,,
@@ -44,6 +45,7 @@
 ,openssh,"SSH protocol implementation for remote login, command execution and file transfer",,
 ,okular,Document Viewer,,
 ,pass,"Stores, retrieves, generates, and synchronizes passwords securely",,
+,pdfarranger,"Helps merge or split PDF documents and rotate, crop and rearrange pages",,
 ,pipewire,Low-latency audio/video router and processor,,
 ,pipewire-audio,Low-latency audio/video router and processor - Audio support,,
 ,pipewire-pulse,Low-latency audio/video router and processor - PulseAudio replacement,,
@@ -78,13 +80,13 @@
 ,texlive-latexextra,TeX Live - LaTeX additional packages,,
 ,texlive-latexrecommended,TeX Live - LaTeX recommended packages,,
 ,texlive-luatex,TeX Live - LuaTeX packages,,
-,texlive-mathscience,TeX Live - Mathematics, natural sciences, computer science packages
+,texlive-mathscience,"TeX Live - Mathematics, natural sciences, computer science packages"
 ,texlive-metapost,TeX Live - MetaPost and Metafont packages,,
 ,texlive-music,TeX Live - Music packages,,
-,texlive-pictures,TeX Live - Graphics, pictures, diagrams
+,texlive-pictures,"TeX Live - Graphics, pictures, diagrams",,
 ,texlive-plaingeneric,TeX Live - Plain (La)TeX packages,,
 ,texlive-pstricks,TeX Live - PSTricks,,
-,texlive-publishers,TeX Live - Publisher styles, theses, etc.
+,texlive-publishers,"TeX Live - Publisher styles, theses, etc.",,
 ,texlive-xetex,TeX Live - XeTeX and packages,,
 ,tmux,Terminal multiplexer,,
 ,ttf-dejavu,Font family based on the Bitstream Vera Fonts with a wider range of characters,,
