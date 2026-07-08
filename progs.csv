@@ -44,6 +44,7 @@
 ,octave,"A high-level language, primarily intended for numerical computations",,
 ,openssh,"SSH protocol implementation for remote login, command execution and file transfer",,
 ,okular,Document Viewer,,
+,pamixer,Pulseaudio command-line mixer like amixer,,
 ,pass,"Stores, retrieves, generates, and synchronizes passwords securely",,
 ,pdfarranger,"Helps merge or split PDF documents and rotate, crop and rearrange pages",,
 ,pipewire,Low-latency audio/video router and processor,,
