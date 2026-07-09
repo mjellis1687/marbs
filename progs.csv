@@ -26,6 +26,7 @@
 ,gvim,"Vi Improved, a highly configurable, improved version of the vi text editor (with advanced features, such as a GUI)",,
 ,hplip,"Drivers for HP DeskJet, OfficeJet, Photosmart, Business Inkjet and some LaserJet",,
 ,htop,Interactive process viewer,,
+,inetutils,A collection of common network programs,,
 ,lf,A terminal file manager inspired by ranger,,
 ,libnotify,Library for sending desktop notifications,,
 ,libreoffice-fresh,LibreOffice branch which contains new features and program enhancements,,
