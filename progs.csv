@@ -82,7 +82,7 @@
 ,texlive-latexextra,TeX Live - LaTeX additional packages,,
 ,texlive-latexrecommended,TeX Live - LaTeX recommended packages,,
 ,texlive-luatex,TeX Live - LuaTeX packages,,
-,texlive-mathscience,"TeX Live - Mathematics, natural sciences, computer science packages"
+,texlive-mathscience,"TeX Live - Mathematics, natural sciences, computer science packages",,
 ,texlive-metapost,TeX Live - MetaPost and Metafont packages,,
 ,texlive-music,TeX Live - Music packages,,
 ,texlive-pictures,"TeX Live - Graphics, pictures, diagrams",,
@@ -91,6 +91,7 @@
 ,texlive-publishers,"TeX Live - Publisher styles, theses, etc.",,
 ,texlive-xetex,TeX Live - XeTeX and packages,,
 ,tmux,Terminal multiplexer,,
+,tree-sitter-cli,"CLI tool for developing, testing, and using Tree-sitter parsers",,
 ,ttf-dejavu,Font family based on the Bitstream Vera Fonts with a wider range of characters,,
 ,ttf-font-awesome,Iconic font designed for Bootstrap,,
 ,ttf-inconsolata,Monospace font for pretty code listings and for the terminal,,
