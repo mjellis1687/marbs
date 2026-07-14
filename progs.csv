@@ -41,6 +41,7 @@
 ,nextcloud-client,Nextcloud desktop client
 ,noto-fonts,Google Noto TTF fonts
 ,noto-fonts-emoji,Google Noto emoji fonts
+,npm,JavaScript package manager
 ,ntfs-3g,NTFS filesystem driver and utilities
 ,octave,"A high-level language, primarily intended for numerical computations"
 ,openssh,"SSH protocol implementation for remote login, command execution and file transfer"
